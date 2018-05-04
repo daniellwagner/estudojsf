@@ -14,7 +14,7 @@ import javax.faces.convert.FacesConverter;
 @FacesConverter(value = LocalDateTimeConverter.ID)
 public class LocalDateTimeConverter extends DateTimeConverter {
 
-	public static final String ID = "br.com.ciceroednilson.uteis.LocalDateTimeConverter";
+	public static final String ID = "br.edu.uepb.uteis.LocalDateTimeConverter";
 
 	@Override
 	public Object getAsObject(FacesContext facesContext, UIComponent uiComponent, String value) {
